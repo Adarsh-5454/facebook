@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+}
+
+.logo {
+  margin-top: 20%;
+  margin-left: -20%;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 100;
+}
+.login {
+  background-color: white;
+  padding: 16px;
+  width: 300px;
+  border-radius: 5px;
+  margin-top: 20%;
+  height: 325px;
+}
+.login input {
+  padding: 10px;
+  width: 270px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 0.5px solid black;
+  padding-left: 4px;
+}
+.link {
+  margin: auto;
+  width: fit-content;
+  margin-top: 10px;
+}
+.line {
+  background-color: rgb(195, 195, 195);
+  height: 2px;
+  width: 270px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.tohoverlog {
+  width: 270px;
+  padding: 10px;
+  background-color: rgb(11, 78, 223);
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+.tohoverlog:hover {
+  background-color: rgb(33, 33, 139);
+}
+a {
+  text-decoration: none;
+}

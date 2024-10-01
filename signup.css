@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  height: 780px;
+}
+.content {
+  height: 500px;
+  width: 400px;
+}
+.line {
+  background-color: rgb(195, 195, 195);
+  height: 1px;
+  width: 100%;
+}
+.mobile {
+  width: 380px;
+}
+.new {
+  width: 380px;
+}
+.use {
+  background-color: #42b72a !important;
+}
